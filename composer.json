@@ -1,0 +1,23 @@
+{
+  "name": "ridibooks/php-binlog-collector-sdk",
+  "description": "Ridibooks PHP Binlog Collector SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "오길원",
+      "email": "kobi97@ridi.com"
+    }
+  ],
+  "require": {
+    "ridibooks/platform-gnfdb": "^0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Binlog\\": "src/Binlog"
+    }
+  }
+}
